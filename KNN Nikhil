@@ -105,3 +105,30 @@ y_pred_final = final_knn_classifier.predict(X_test)
 conf_matrix = confusion_matrix(y_test, y_pred_final)
 
 # Explain the accuracy of your model in a Markdown cell
+
+
+K=1: Mean Accuracy = 0.38, Std Deviation = 0.03
+K=2: Mean Accuracy = 0.28, Std Deviation = 0.03
+K=3: Mean Accuracy = 0.28, Std Deviation = 0.03
+K=4: Mean Accuracy = 0.26, Std Deviation = 0.03
+K=5: Mean Accuracy = 0.34, Std Deviation = 0.16
+K=6: Mean Accuracy = 0.33, Std Deviation = 0.16
+K=7: Mean Accuracy = 0.50, Std Deviation = 0.21
+K=8: Mean Accuracy = 0.50, Std Deviation = 0.22
+K=9: Mean Accuracy = 0.67, Std Deviation = 0.04
+K=10: Mean Accuracy = 0.67, Std Deviation = 0.04
+K=11: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=12: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=13: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=14: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=15: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=16: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=17: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=18: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=19: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=20: Mean Accuracy = 0.65, Std Deviation = 0.03
+
+Confusion Matrix:
+[[20 0 0]
+[ 7 0 1]
+[ 0 0 56]]
